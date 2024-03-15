@@ -6,6 +6,8 @@
 
 This repository contains a collection of Flask API endpoints designed to simplify the usage and execution of tasks using the Cloudways API. These endpoints are designed to return filtered JSON data directly, eliminating the need for additional processing and filtering on the client side.
 
+These endpoints serve as the engine for the majority of the [cloud automation](https://github.com/elishaJ/cw_automations) scripts, making it easier to integrate automation into various workflows.
+
 ### Layout
 
 ```tree
@@ -62,13 +64,14 @@ A brief description of the layout:
 
 ### Built with
 
-<a href="https://www.python.org/"><img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" alt="Python Logo" width="40" height="40"></a> <a href="https://cloud.google.com/firestore/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDj0DEGHE3SO6cpqBrV36WVBmLbIDPbtuzk3Xsf9jtg&s" alt="GCP Firestore" width="40" height="40"></a>
+<a href="https://www.python.org/"><img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" alt="Python Logo" width="40" height="40"></a> <a href="https://cloud.google.com/functions/"><img src="https://seeklogo.com/images/G/google-cloud-functions-logo-AECD57BFA2-seeklogo.com.png" alt="GCP Cloud Functions" width="40" height="40"></a> <a href="https://cloud.google.com/firestore/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDj0DEGHE3SO6cpqBrV36WVBmLbIDPbtuzk3Xsf9jtg&s" alt="GCP Firestore" width="40" height="40"></a>
 
 
 
 ###  Skills
 - Python development
 - GCP Firestore database management
+- GCP Cloud Functions 
 
 ### Badges
 

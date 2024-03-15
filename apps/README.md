@@ -1,7 +1,7 @@
 
 ## API Reference
 
-#### Get all server applications
+#### Get all applications on a server
 ```http
   GET /apps
 ```
@@ -44,7 +44,7 @@
 ```
 
 
-#### Get all project applications
+#### Get all applications in a project
 ```http
   GET /apps
 ```

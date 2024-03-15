@@ -1,7 +1,7 @@
 
 ## API Reference
 
-#### Get running server IDs
+#### Get IDs of all running servers 
 ```http
   GET /servers/ids
 ```
@@ -20,7 +20,7 @@
     ]
 }
 ```
-#### Get running server IPs
+#### Get public IPs of all running servers
 ```http
   GET /servers/ips
 ```
@@ -40,7 +40,7 @@
 }
 ```
 
-#### Get SSH users
+#### Get SSH master usernames of all running servers
 ```http
   GET /servers/users
 ```

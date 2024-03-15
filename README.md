@@ -30,7 +30,7 @@ This repository contains a collection of Flask API endpoints designed to simplif
 A brief description of the layout:
 
 * `apps` folder for apps endpoint files.
-* `apps.py` fetches app IDs filtered by project/server ID. 
+* `apps.py` fetches app info filtered by project/server ID. 
 * `auth` folder for auth endpoint files.
 * `create_keys.py` stores key ID(s) created by `ssh_auth.py` to GCP Firestore.
 * `ssh_auth.py` creates and uploads SSH key(s) to Cloudways server(s).
